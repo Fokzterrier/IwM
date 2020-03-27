@@ -1,0 +1,47 @@
+.input{
+    
+    width: 40%; 
+    height: 40px;
+    border: 1px solid #999;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #7e9399;
+    padding-inline-start: 10px;
+    margin-top:10px;
+    color: white;    
+}
+
+::placeholder{
+    color: white;
+}
+
+.List{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputY1{
+    margin:5px; 
+}
+
+.inputY2{
+    margin:5px; 
+}
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.patientList{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.patient{
+    margin-top:5px;
+    margin-bottom: 2.5px;
+    font-size:20px;
+}

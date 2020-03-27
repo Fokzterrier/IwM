@@ -1,0 +1,59 @@
+.detailBtn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #7e9399;
+    font-size:25px;
+    width: 270px;
+    padding:5px;
+    text-align: left;
+}
+
+.backBtn{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top:10px;
+    height: 40px;
+    background-color: #7e9399;
+
+}
+
+.personalHeader{
+    font-size: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top:10px;
+    background-color: #7e9399;
+    padding: 5px;
+    color: white;
+    width: 270px;
+    min-width: 160px;
+}
+
+.patientLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.details_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.emptyDetails{
+    color: red;
+    font-size: 15px;
+}
